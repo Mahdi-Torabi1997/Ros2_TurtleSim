@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>turtle_fleet</name>
+  <version>0.0.1</version>
+  <description>A simple ROS 2 package to demonstrate basic communication between nodes using turtlesim.</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>turtlesim</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
